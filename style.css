@@ -103,4 +103,21 @@ section {
   text-decoration: none;
 }
 
+/* FORCE vertical app badges */
+.stores {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+/* FORCE narrower hero block */
+.hero {
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: #e0e0e0 !important;
+}
+
+
 
