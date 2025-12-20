@@ -86,16 +86,15 @@ section {
   color: #777;
 }
 
-.footer p {
-  display: inline;
-}
-
-.footer p:not(:last-child)::after {
-  content: " · ";
+.footer-line {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .footer a {
   color: #777;
   text-decoration: none;
 }
+
 
