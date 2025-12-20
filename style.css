@@ -72,7 +72,24 @@ section {
 }
 
 /* Footer */
+.footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.footer p {
+  display: inline;
+}
+
+.footer p:not(:last-child)::after {
+  content: " · ";
+}
+
 .footer a {
   color: #777;
   text-decoration: none;
 }
+
