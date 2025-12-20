@@ -67,13 +67,16 @@ section {
 /* Features */
 .features {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .feature-item {
   text-align: center;
+  width: 120px;
 }
+
 
 
 
