@@ -67,14 +67,14 @@ section {
 /* Features */
 .features {
   display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.features p {
-  flex: 1;
+.feature-item {
   text-align: center;
 }
+
 
 
 /* Footer */
