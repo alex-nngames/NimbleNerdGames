@@ -44,6 +44,8 @@ section {
   background: #f0f0f0;
   padding: 2rem 1.5rem;
   border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto 3rem;
 }
 
 .title {
