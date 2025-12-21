@@ -99,16 +99,16 @@ section {
   display: block;
 }
 
-/* ================= Highlight ================= */
+/* ================= email-icon ================= */
 
-.highlight img {
+.email-icon img {
   width: 48px;
   height: 48px;
   margin: 0 auto 0.75rem;
   display: block;
 }
 
-.highlight p {
+.email-icon p {
   margin-bottom: 0.25rem;
 }
 
