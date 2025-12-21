@@ -128,12 +128,10 @@ section {
   width: 32px;
   height: 32px;
   display: block;
-  filter: invert(0);
+  filter: invert(1);
 }
 
-.features img {
-  background: red;
-}
+
 
 
 
