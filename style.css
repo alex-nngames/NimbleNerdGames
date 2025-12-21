@@ -11,54 +11,64 @@ body {
   line-height: 1.5;
 }
 
-/* Header */
+/* ================= Header ================= */
+
 .header {
   text-align: center;
   padding: 2.5rem 1rem 2rem;
 }
 
 .logo {
-  font-size: 1.6rem;
-  font-weight: bold;
+  width: 72px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .tagline {
   font-size: 0.9rem;
   color: #666;
+  margin-top: 0.5rem;
 }
 
-/* Main container */
+/* ================= Main Container ================= */
+
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-/* Sections */
+/* ================= Sections ================= */
+
 section {
   text-align: center;
   margin-bottom: 3rem;
 }
 
+/* Hero text block */
 .hero {
-  background: #f0f0f0;
+  background: #e0e0e0;
   padding: 2rem 1.5rem;
   border-radius: 8px;
-  max-width: 600px;
+  max-width: 520px;
   margin: 0 auto 3rem;
 }
 
+/* Title */
 .title {
-  text-align: center;
   font-size: 1.8rem;
   margin: 3rem 0 2rem;
 }
 
+/* ================= Video ================= */
+
 .video-wrapper {
   position: relative;
   padding-top: 56.25%; /* 16:9 */
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 680px;   /* Smaller than before */
+  width: 100%;
+  margin: 0 auto 3rem;
 }
 
 .video-wrapper iframe {
@@ -68,8 +78,14 @@ section {
   height: 100%;
 }
 
+/* ================= Description ================= */
 
-/* Stores */
+.description p {
+  margin-bottom: 0.5rem;
+}
+
+/* ================= Store Badges ================= */
+
 .stores {
   display: flex;
   flex-direction: column;
@@ -77,28 +93,43 @@ section {
   gap: 1rem;
 }
 
-/* Highlight */
-.highlight {
-  text-align: center;
+.stores img {
+  width: 160px;
+  height: auto;
+  display: block;
 }
 
-/* Features */
+/* ================= Highlight ================= */
+
+.highlight img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 0.75rem;
+  display: block;
+}
+
+.highlight p {
+  margin-bottom: 0.25rem;
+}
+
+/* ================= Features (Bottom 3 Icons) ================= */
+
 .features {
   display: flex;
-  justify-content: space-between;
-  max-width: 600px;
+  justify-content: center;
+  gap: 40px;
+  margin: 3rem auto;
+}
+
+.feature-item img {
+  width: 48px;
+  height: 48px;
+  display: block;
   margin: 0 auto;
 }
 
-.feature-item {
-  text-align: center;
-  width: 120px;
-}
+/* ================= Footer ================= */
 
-
-
-
-/* Footer */
 .footer {
   border-top: 1px solid #e0e0e0;
   padding: 2rem 1rem;
@@ -118,21 +149,10 @@ section {
   text-decoration: none;
 }
 
-/* FORCE vertical app badges */
-.stores {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  gap: 1rem !important;
+.footer a:hover {
+  text-decoration: underline;
 }
 
-/* FORCE narrower hero block */
-.hero {
-  max-width: 600px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background: #e0e0e0 !important;
-}
 
 
 
