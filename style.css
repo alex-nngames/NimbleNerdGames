@@ -158,6 +158,15 @@ section {
   text-decoration: underline;
 }
 
+footer {
+  border: none !important;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+
 
 
 
