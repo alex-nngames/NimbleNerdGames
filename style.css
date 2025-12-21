@@ -131,6 +131,11 @@ section {
   filter: invert(0);
 }
 
+.features img {
+  background: red;
+}
+
+
 
 /* ================= Footer ================= */
 
