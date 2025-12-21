@@ -53,6 +53,10 @@ section {
   margin: 0 auto 3rem;
 }
 
+.hero p + p {
+  margin-top: 1rem;
+}
+
 
 /* Title */
 .title {
