@@ -166,6 +166,19 @@ section:last-of-type {
   margin-bottom: 0;
 }
 
+/* ================= privacy policy ================= */
+
+.privacy h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.privacy p {
+  max-width: 720px;
+  margin: 0.5rem auto;
+  line-height: 1.6;
+}
 
 
 
