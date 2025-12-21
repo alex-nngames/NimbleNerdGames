@@ -96,7 +96,7 @@ section {
   gap: 1rem;
 }
 
-.stores img {
+.stores svg {
   width: 160px;
   height: auto;
   display: block;
@@ -124,7 +124,7 @@ section {
   margin: 3rem auto;
 }
 
-.features img {
+.features svg {
   width: 32px;
   height: 32px;
   display: block;
