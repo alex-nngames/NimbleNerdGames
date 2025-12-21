@@ -96,7 +96,7 @@ section {
   gap: 1rem;
 }
 
-.stores svg {
+.stores img {
   width: 160px;
   height: auto;
   display: block;
@@ -104,7 +104,7 @@ section {
 
 /* ================= email-icon ================= */
 
-.email-icon svg {
+.email-icon img {
   width: 24px;
   height: 24px;
   margin: 0 auto 0.75rem;
@@ -124,7 +124,7 @@ section {
   margin: 3rem auto;
 }
 
-.features svg {
+.features img {
   width: 32px;
   height: 32px;
   display: block;
