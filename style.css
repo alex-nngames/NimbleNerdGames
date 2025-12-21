@@ -181,6 +181,12 @@ section:last-of-type {
   line-height: 1.6;
 }
 
+.hero,
+.hero * {
+  background: transparent !important;
+}
+
+
 
 
 
