@@ -5,52 +5,92 @@
   <title>Your App Name</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- CSS MUST be inside head -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- Header -->
   <header class="header">
-    <div class="logo">LOGO</div>
+    <img src="images/logo.svg" alt="NimbleNerd Games logo" class="logo">
     <p class="tagline">Logo text</p>
   </header>
 
+  <!-- Main content -->
   <main class="container">
 
+    <!-- Hero text block -->
     <section class="hero">
       <p>Main text block</p>
     </section>
 
     <h1 class="title">Larger text title</h1>
 
+    <!-- Media section -->
     <section class="media">
-      <p>[Image goes here]</p>
-      <p>[Video / YouTube embed goes here]</p>
+
+      <!-- Optional image (remove if not needed) -->
+      <!--
+      <img src="images/hero-image.svg" alt="" class="media-image">
+      -->
+
+      <!-- Responsive video -->
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="YouTube video"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+
     </section>
 
+    <!-- Description text -->
     <section class="description">
       <p>text</p>
       <p>text</p>
       <p>text</p>
     </section>
 
+    <!-- App store badges (stacked vertically) -->
     <section class="stores">
-      <p>[App Store badge]</p>
-      <p>[Google Play badge]</p>
+      <img src="images/app-store.svg" alt="Download on the App Store">
+      <img src="images/google-play.svg" alt="Get it on Google Play">
     </section>
 
+    <!-- Highlight section -->
     <section class="highlight">
-      <p>[Icon]</p>
+      <img src="images/highlight.svg" alt="">
       <p>text</p>
       <p>text</p>
     </section>
 
+    <!-- Feature icons -->
     <section class="features">
-      <div class="feature-item">[Icon 1]</div>
-      <div class="feature-item">[Icon 2]</div>
-      <div class="feature-item">[Icon 3]</div>
+      <div class="feature-item">
+        <img src="images/feature1.svg" alt="">
+      </div>
+      <div class="feature-item">
+        <img src="images/feature2.svg" alt="">
+      </div>
+      <div class="feature-item">
+        <img src="images/feature3.svg" alt="">
+      </div>
     </section>
 
   </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-line">
+      <span>NimbleNerd Games © 2025</span>
+      <span>·</span>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>
+
 
