@@ -105,8 +105,8 @@ section {
 /* ================= email-icon ================= */
 
 .email-icon img {
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   margin: 0 auto 0.75rem;
   display: block;
 }
