@@ -124,12 +124,13 @@ section {
   margin: 3rem auto;
 }
 
-.feature-item img {
-  width: 48px;
-  height: 48px;
+.features img {
+  width: 32px;
+  height: 32px;
   display: block;
-  margin: 0 auto;
+  filter: invert(0);
 }
+
 
 /* ================= Footer ================= */
 
