@@ -48,11 +48,11 @@ section {
 
 /* Hero text block */
 .hero {
-  background: transparent;
-  padding: 2rem 1.5rem;
-  border-radius: 8px;
+  padding: 2rem 0;
   max-width: 520px;
   margin: 0 auto 3rem;
+}
+
 }
 
 /* Title */
