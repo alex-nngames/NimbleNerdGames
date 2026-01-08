@@ -25,6 +25,13 @@ body {
   padding: 2.5rem 1rem 2rem;
 }
 
+.logo {
+  width: 72px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 .logo-text {
   font-weight: 900;          /* Roboto Black */
   font-size: 2.2rem;         /* Bigger text */
