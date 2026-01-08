@@ -9,34 +9,14 @@ body {
   background: #ffffff;
   color: #111;
   line-height: 1.5;
-  font-weight: 400; /* Regular */
+  font-weight: 400;
 }
 
 /* ================= Font weights ================= */
 
-.font-regular {
-  font-weight: 400;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
-.title {
-  font-weight: 900; /* Black */
-}
-
-.hero p {
-  font-weight: 400; /* Regular */
-}
-
-.tagline {
-  font-weight: 700; /* Bold */
-}
+.font-regular { font-weight: 400; }
+.font-bold { font-weight: 700; }
+.font-black { font-weight: 900; }
 
 /* ================= Header ================= */
 
@@ -53,6 +33,7 @@ body {
 }
 
 .tagline {
+  font-weight: 700;
   font-size: 1.8rem;
   color: #666;
   margin-top: 0.5rem;
@@ -84,22 +65,21 @@ section {
   margin-top: 1.75rem;
 }
 
-
 /* Title */
 .title {
+  font-weight: 900;
   text-align: center;
   font-size: 1.8rem;
   margin: 3rem auto 2rem;
   width: 100%;
 }
 
-
 /* ================= Video ================= */
 
 .video-wrapper {
   position: relative;
-  padding-top: 56.25%; /* 16:9 */
-  max-width: 680px;   /* Smaller than before */
+  padding-top: 56.25%;
+  max-width: 680px;
   width: 100%;
   margin: 0 auto 3rem;
 }
@@ -132,7 +112,7 @@ section {
   display: block;
 }
 
-/* ================= email-icon ================= */
+/* ================= Email ================= */
 
 .email-icon img {
   width: 24px;
@@ -145,7 +125,7 @@ section {
   margin-bottom: 0.25rem;
 }
 
-/* ================= Features (Bottom 3 Icons) ================= */
+/* ================= Social Icons ================= */
 
 .features {
   display: flex;
@@ -159,10 +139,6 @@ section {
   height: 32px;
   display: block;
 }
-
-
-
-
 
 /* ================= Footer ================= */
 
@@ -189,14 +165,14 @@ section {
 }
 
 footer {
-  border: none !important;
+  border: none;
 }
 
 section:last-of-type {
   margin-bottom: 0;
 }
 
-/* ================= privacy policy ================= */
+/* ================= Privacy Policy ================= */
 
 .privacy h2 {
   margin-top: 2rem;
@@ -209,13 +185,4 @@ section:last-of-type {
   margin: 0.5rem auto;
   line-height: 1.6;
 }
-
-.hero,
-.hero * {
-  background: transparent !important;
-}
-
-
-
-
 
