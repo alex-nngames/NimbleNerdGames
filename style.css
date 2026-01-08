@@ -42,13 +42,6 @@ body {
   line-height: 1.1;
 }
 
-.tagline {
-  font-weight: 700;
-  font-size: 2.8rem;
-  color: #666;
-  margin-top: 0.5rem;
-}
-
 /* ================= Main Container ================= */
 
 .container {
