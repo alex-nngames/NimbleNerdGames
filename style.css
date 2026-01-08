@@ -26,6 +26,17 @@ body {
   font-weight: 900;
 }
 
+.title {
+  font-weight: 900; /* Black */
+}
+
+.hero p {
+  font-weight: 400; /* Regular */
+}
+
+.tagline {
+  font-weight: 700; /* Bold */
+}
 
 /* ================= Header ================= */
 
