@@ -11,6 +11,21 @@ body {
   line-height: 1.5;
 }
 
+/* ================= Font weights ================= */
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+
 /* ================= Header ================= */
 
 .header {
