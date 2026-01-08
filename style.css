@@ -196,3 +196,9 @@ section:last-of-type {
   line-height: 1.6;
 }
 
+img.logo {
+  width: 72px !important;
+  height: auto !important;
+}
+
+
