@@ -33,12 +33,13 @@ body {
 }
 
 .logo-text {
-  font-weight: 900;          /* Roboto Black */
-  font-size: 2.2rem;         /* Bigger text */
+  font-weight: 900;                 /* Roboto Black */
+  font-size: clamp(2rem, 6vw, 2.8rem);
   margin-top: 0.75rem;
-  letter-spacing: -0.02em;
+  margin-bottom: 0;
   color: #111;
   text-align: center;
+  line-height: 1.1;
 }
 
 .tagline {
