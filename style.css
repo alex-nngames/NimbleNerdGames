@@ -36,16 +36,6 @@ img.logo {
   margin: 0 auto;
 }
 
-/* Text logo under SVG */
-.logo-text {
-  font-weight: 900;
-  font-size: clamp(2rem, 6vw, 2.8rem);
-  margin-top: 0.75rem;
-  color: #111;
-  text-align: center;
-  line-height: 1.1;
-}
-
 /* ================= Main Container ================= */
 
 .container {
