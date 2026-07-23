@@ -136,6 +136,11 @@ section {
   height: 24px;
   margin: 0 auto 0.75rem;
   display: block;
+  filter: brightness(0) invert(1);
+}
+
+.email-icon {
+  color: #FFFFFF;
 }
 
 .email-icon p {
